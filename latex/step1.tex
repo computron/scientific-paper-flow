@@ -1,0 +1,225 @@
+\documentclass[]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+    \usepackage{xltxtra,xunicode}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Mapping=tex-text,Scale=MatchLowercase}
+  \newcommand{\euro}{€}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\ifxetex
+  \usepackage[setpagesize=false, % page size defined by xetex
+              unicode=false, % unicode breaks when used with xetex
+              xetex]{hyperref}
+\else
+  \usepackage[unicode=true]{hyperref}
+\fi
+\usepackage[usenames,dvipsnames]{color}
+\hypersetup{breaklinks=true,
+            bookmarks=true,
+            pdfauthor={},
+            pdftitle={},
+            colorlinks=true,
+            citecolor=blue,
+            urlcolor=blue,
+            linkcolor=magenta,
+            pdfborder={0 0 0}}
+\urlstyle{same}  % don't use monospace font for urls
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{0}
+
+\date{}
+
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+\begin{document}
+
+Top of Form
+
+Scientific Paper Step 1: Planning
+
+Congratulations on getting started with paper writing!
+
+In step 1, you will think about:
+
+\begin{itemize}
+\item
+  what is the purpose of the paper, and how might you have even higher
+  impact
+\item
+  who is the audience of the paper
+\item
+  what might be some potential journals to submit to
+\item
+  who are your coauthors
+\item
+  what are some of the key references/citations of your work
+\item
+  who might be referees of your paper
+\item
+  what will be the ultimate impacts of you finishing this work?
+\end{itemize}
+
+Step 1 is designed to be smooth and should normally take between one
+hour and a few hours. If it takes much longer than that, it's an
+indicator that paper writing may be premature.
+
+When answering the questions in this form, use plain, conversational
+language - short, simple sentences are preferred!
+
+More information:~https://github.com/computron/scientific-paper-flow
+
+* Indicates required question
+
+1.
+
+Email *
+
+2.
+
+\textbf{What will be the main contributions of this paper?}
+
+\emph{You can list things like data sets, software, new methods, new
+models, new equations, a list of new predictions, trained machine
+learning models, new knowledge/intuition about a problem, overturning
+past ideas, etc. You can (and in most cases should) list more than one
+contribution. {[}max: 1500 characters{]}}
+
+*
+
+3.
+
+\textbf{For each of the contributions listed previously, separate them
+into the categories below and describe potential figures/tables for that
+contribution.}
+
+1. Critical (must-have to be able to submit the paper)
+
+2. Intermediate (would be nice to have and think it is probably
+achievable)
+
+3. Stretch (would be amazing to have, would lead to a high-impact
+result, but unsure it it's even possible or how to get there if it is)
+
+\emph{You can add additional contributions and ideas from the previous
+response if needed for things like "intermediate" and "stretch" goals.}
+
+\emph{For each contribution, try to provide a description of the core
+figure(s) / table(s) related to that contribution.}
+
+\emph{{[}max: 1500 characters{]}}
+
+*
+
+4.
+
+\textbf{Who will this paper be useful to, and what kinds of future
+studies might cite this work?}
+
+\emph{{[}max: 1500 characters{]}}
+
+*
+
+5.
+
+\textbf{What are some related studies to this paper?}~
+
+Please list at least 5 papers and explain the relation of your paper to
+theirs.
+
+\emph{Prefer listing papers outside your direct research group / direct
+collaborators. The relation might be directly be on the same topic, but
+it could also in terms of having a similar form to your paper (e.g.,
+both your paper and the proposed are a data contribution paper even
+though they are in different scientific domains).}~
+
+\emph{{[}max: 2000 characters{]}}
+
+*
+
+6.
+
+\textbf{Provide a numbered list of the co-authors of this paper.}
+
+For each co-author, indicate what contribution they might make to help
+finish this paper.
+
+\emph{Example contributions include preparation of a figure, processing
+of a data set, writing of a section, etc.}
+
+\emph{{[}max: 1500 characters{]}}
+
+*
+
+7.
+
+\textbf{List three or more journals where you might submit this
+concept.}
+
+What journal is your top choice?
+
+\emph{{[}max: 1500 characters{]}}
+
+*
+
+8.
+
+\textbf{Use all the responses above to draft a cover letter for this
+article.}
+
+Note that it is understood that the cover letter may change depending on
+the final research results, however this should be your best guess for
+the moment.
+
+* You can address the letter to the editor of one of the journals listed
+above
+
+* Your letter should include the (working) title of the paper
+
+* Your letter should contain the contributions of the work (use what you
+listed earlier as a guide)
+
+* Your letter can contain some of the citations of related papers
+
+* Your letter should address who will be the audience of the work, and
+ideally convince the editor that this paper will have broad readership.
+
+\emph{The letter contents can be typed into the form below. During final
+paper submission, this can be used as a guide for your final cover
+letter.}
+
+\emph{{[}no maximum length{]}}
+
+*
+
+Bottom of Form
+
+\end{document}
