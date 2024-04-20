@@ -15,6 +15,7 @@ To download the checklist as **Google Forms** (recommended because it is more in
 1. Sign into your Google Account
 2. Click each of the links below to create a copy of the corresponding step in the Google form. Following the link will prompt you to make a copy in your own Google account.
 3. If a menu item asks you to restore a folder (for storing responses), click “Yes”
+4. After copying the form, you will be in "edit" mode. To *use* the form, send the form to yourself or whomever you'd like to fill it out.
 
 * Step 1. https://tinyurl.com/397783f8
 * Step 2. https://tinyurl.com/muwbmdh8
