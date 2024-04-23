@@ -2,7 +2,7 @@
 
 Link: https://github.com/computron/scientific-paper-flow
 
-**Youtube tutorial**: https://youtu.be/7EEi3Vxvyk4
+**Video tutorial**: https://youtu.be/7EEi3Vxvyk4
 
 This repository contains a 5 step procedure for bringing your scientific paper manuscript from a blank page to submission.
 
